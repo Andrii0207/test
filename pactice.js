@@ -67,3 +67,9 @@ function getRandomHex() {
     .toString(16)
     .padStart(2, '0');
 }
+
+const name = 'Mango';
+console.log(name.split('')); // ["M", "a", "n", "g", "o"]
+
+const message = 'JavaScript это интересно';
+console.log(message.split('')); // ["JavaScript", "это", "интересно"]
